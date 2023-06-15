@@ -4,3 +4,4 @@
 3-name - compiles a C file and creates an executable named cisfun
 4-puts.c - C program that prints
 5-printf.c - C program that prints with printf
+6-size.c - prints the size of various types on the computer it is compiled and run on
