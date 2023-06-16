@@ -11,13 +11,16 @@ int main(void)
 	int n;
 	int s;
 
-	for (n = 0; n <= 9; n++)
+	for (n = 0; n < 99; n++)
 	{
-		for (s = 0; s <= 9; s++)
+		for (s = n + 1; s < 100; s++)
 		{
-			putchar(n + '0');
-			putchar(s + '0');
-			if (!(n == 9 && s == 9))
+			putchar(n / 10 + 48);
+			putchar(n % 10 + 48);
+			putchar(' ');
+			putchar(s / 10 + 48);
+			putchar(s % 10 + 48);
+			if (n != 98 || s != 99)
 			{
 				putchar(',');
 				putchar(' ');
