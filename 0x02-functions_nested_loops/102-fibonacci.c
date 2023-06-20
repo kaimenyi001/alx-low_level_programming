@@ -8,21 +8,19 @@
 
 int main(void)
 {
-	long int n1, n2, fn, afn;
+	int c;
+	long int n1, n2, fn;
 
 	n1 = 1;
 	n2 = 2;
-	fn = afn = 0;
-	while (fn <= 4000000)
+	printf("%ld, %ld", n1, n2);
+	for (c = 0; c < 48; c++)
 	{
-	fn = n1 + n2;
-	n1 = n2;
-	n2 = fn;
-	if ((n1 % 2) == 0)
-	{
-	afn += n1;
+		fn = n1 + n2;
+		printf(", %ld", fn);
+		n1 = n2;
+		n2 = fn;
 	}
-	}
-	printf("%ld\n", afn);
+	printf("\n");
 	return (0);
 }
