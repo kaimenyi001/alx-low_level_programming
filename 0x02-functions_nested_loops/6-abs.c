@@ -3,15 +3,13 @@
 /**
  * _abs - computes the absolute value
  *
- * @int: inputs character
+ * @k: inputs character
  *
  * Return: 0 Success
  */
 
-int _abs(int)
+int _abs(int k)
 {
-	int k;
-
 	if (k >= 0)
 	{
 	return (k);
