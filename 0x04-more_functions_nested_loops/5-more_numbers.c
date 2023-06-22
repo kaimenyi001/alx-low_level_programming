@@ -3,7 +3,6 @@
 /**
  * more_numbers - 10 times 0 to 14
  *
- * Return: 0
  */
 
 void more_numbers(void)
