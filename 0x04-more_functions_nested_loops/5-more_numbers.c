@@ -15,8 +15,8 @@ void more_numbers(void)
 		for (m = 0; m <= 14; m++)
 		{
 			if (c > 9)
-			_putchar((m / 10) + 0);
-			_putchar((m % 10) + 0);
+			_putchar((m / 10) + 48);
+			_putchar((m % 10) + 48);
 		}
 		_putchar('\n');
 	}
