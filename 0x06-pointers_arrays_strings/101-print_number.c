@@ -3,7 +3,7 @@
 /**
  * print_number - prints an integer
  * @n: integer
- * Return: 0
+ * Return: void
  */
 
 void print_number(int n)
@@ -19,6 +19,7 @@ void print_number(int n)
 	{
 		m = n;
 	}
+
 	p = m;
 	r = 1;
 
@@ -30,6 +31,6 @@ void print_number(int n)
 
 	for (; r >= 1; r /= 10)
 	{
-		_putchar(((m / p) % 10) + 48);
+		_putchar(((m / r) % 10) + 48);
 	}
 }
