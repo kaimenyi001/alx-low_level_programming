@@ -9,7 +9,6 @@
 char *cap_string(char *s)
 {
 	int n = 0, i;
-
 	int seper[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
 
 	if (s[n] >= 97 && s[n] <= 122)
