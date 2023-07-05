@@ -12,7 +12,7 @@ int pwr_op(int m, int n)
 	if (n % (m / n) == 0)
 	{
 		if (n * (m / n) == m)
-			return (c);
+			return (n);
 		else
 			return (-1);
 	}
