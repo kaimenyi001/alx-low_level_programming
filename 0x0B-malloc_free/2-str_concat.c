@@ -29,7 +29,7 @@ char *str_concat(char *s1, char *s2)
 		free(out);
 		return (NULL);
 	}
-	for (y = 0; y < i; y++)
+	for (y = 0; y < x; y++)
 		out[y] = s1[y];
 
 	limit = y;
