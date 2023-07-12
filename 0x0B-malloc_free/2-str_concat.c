@@ -29,12 +29,12 @@ char *str_concat(char *s1, char *s2)
 		free(out);
 		return (NULL);
 	}
-	for (y = 0; y < x; y++)
-		out[y] = s1[y];
+	for (z = 0; z < x; z++)
+		out[z] = s1[z];
 
 	limit = y;
-	for (z = 0; z <= limit; y++, z++)
-		out[y] = s2[z];
+	for (y = 0; y <= limit; z++, y++)
+		out[z] = s2[y];
 
 	return (out);
 }
