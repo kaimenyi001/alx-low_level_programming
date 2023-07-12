@@ -8,7 +8,7 @@
  * Return: void
  */
 
-void free_grid(char **grid, unsigned int height)
+void _free_grid(char **grid, unsigned int height)
 {
 	if (grid != NULL && height != 0)
 	{
