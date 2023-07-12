@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * free_grid - frees array
+ * _free_grid - frees array
  * @grid: array of char
  * @height: height of array
  * Return: void
@@ -52,7 +52,7 @@ char **strtow(char *str)
 				out[x] = malloc((i - z + 2) * sizeof(char));
 				if (out[x] == NULL)
 				{
-					free_grid(out, x);
+					_free_grid(out, x);
 					return (NULL);
 				}
 				break;
