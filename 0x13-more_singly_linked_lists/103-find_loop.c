@@ -6,6 +6,7 @@
  *
  * Return: the address of the node where the loop starts.
  */
+
 listint_t *find_listint_loop(listint_t *head)
 {
 	listint_t *i, *prev;
@@ -23,7 +24,7 @@ listint_t *find_listint_loop(listint_t *head)
 			prev =  i;
 			while (1)
 			{
-				p2 = prev;
+				i = prev;
 				while (i->next != head && i->next != prev)
 				{
 					i = i->next;
