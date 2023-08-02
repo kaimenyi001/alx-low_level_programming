@@ -6,7 +6,7 @@
  * Return: void
  */
 
-void free_listss(listint_t **head)
+void free_listss(lists_t **head)
 {
 	lists_t *temp, *c;
 
