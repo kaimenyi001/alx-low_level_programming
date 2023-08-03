@@ -21,9 +21,10 @@ unsigned int binary_to_uint(const char *b)
 		{
 			return (0);
 		}
+
 		if (b[j] & 1)
 		{
-			i += k
+			i += k;
 		}
 	}
 	return (i);
